@@ -1,0 +1,36 @@
+0 verbose cli /home/med/.nvm/versions/node/v20.19.0/bin/node /home/med/.nvm/versions/node/v20.19.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.0
+3 silly config load:file:/home/med/.nvm/versions/node/v20.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/med/.npmrc
+5 silly config load:file:/home/med/.nvm/versions/node/v20.19.0/etc/npmrc
+6 verbose title npm create vite@latest my-public-site --template react
+7 verbose argv "create" "vite@latest" "my-public-site" "--" "--template" "react"
+8 verbose logfile logs-max:10 dir:/home/med/.npm/_logs/2025-04-15T09_41_55_661Z-
+9 verbose logfile /home/med/.npm/_logs/2025-04-15T09_41_55_661Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2082471936 maxSize:520617984 maxEntrySize:260308992
+12 http fetch GET 200 https://registry.npmjs.org/create-vite 187ms (cache updated)
+13 silly packumentCache heap:2082471936 maxSize:520617984 maxEntrySize:260308992
+14 http fetch GET 200 https://registry.npmjs.org/npm 254ms
+15 silly idealTree buildDeps
+16 silly fetch manifest create-vite@6.3.1
+17 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/create-vite 75ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+20 silly placeDep ROOT create-vite@6.3.1 OK for:  want: 6.3.1
+21 silly reify moves {}
+22 silly audit bulk request { 'create-vite': [ '6.3.1' ] }
+23 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 219ms
+24 silly audit report {}
+25 verbose cwd /home/med
+26 verbose os Linux 5.15.0-136-generic
+27 verbose node v20.19.0
+28 verbose npm  v10.8.2
+29 notice
+29 notice New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.3.0[39m
+29 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.3.0[39m
+29 notice To update run: [4mnpm install -g npm@11.3.0[24m
+29 notice  { force: true, [Symbol(proc-log.meta)]: true }
+30 verbose exit 0
+31 info ok

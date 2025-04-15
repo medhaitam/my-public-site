@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=medhaitam37@gmail.com
+Enabled=true
+Parent=b90b97532b73c30bbf6376070eee7bb71f02bf0f
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=931121703ac0463844994bdc7dea8f8c2b018d9e
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=medhaitam37@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
