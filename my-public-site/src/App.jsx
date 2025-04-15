@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
-import History from './pages/History'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
