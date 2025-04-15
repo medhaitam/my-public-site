@@ -35,6 +35,12 @@ h1 {
   line-height: 1.1;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -52,6 +58,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.container {
+  padding: 20px;
 }
 
 @media (prefers-color-scheme: light) {

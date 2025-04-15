@@ -1,8 +1,11 @@
-export default function Home() {
+function Home() {
   return (
     <div>
-      <h1>Welcome to My Site!</h1>
-      <p>This is the home page.</p>
+      <h2>POMPAGE MONITORING</h2>
+      <p>Surveillez votre système solaire en temps réel 🚀</p>
     </div>
   )
 }
+
+export default Home
+

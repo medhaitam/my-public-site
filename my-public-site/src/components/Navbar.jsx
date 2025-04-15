@@ -1,11 +1,18 @@
 import { Link } from 'react-router-dom'
+import './Navbar.css'
 
-export default function Navbar() {
+function Navbar() {
   return (
-    <nav style={{ padding: '10px', backgroundColor: '#eee' }}>
-      <Link to="/" style={{ margin: '0 10px' }}>Home</Link>
-      <Link to="/about" style={{ margin: '0 10px' }}>About</Link>
-      <Link to="/contact" style={{ margin: '0 10px' }}>Contact</Link>
+    <nav className="navbar">
+      <h1>Monitoring Solaire</h1>
+      <div className="links">
+        <Link to="/">Accueil</Link>
+        <Link to="/about">À propos</Link>
+        <Link to="/history">Historique</Link>
+      </div>
     </nav>
   )
 }
+
+export default Navbar
+
