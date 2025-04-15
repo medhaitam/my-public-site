@@ -1,11 +1,19 @@
-function Home() {
+import { Card, ProgressBar } from 'react-bootstrap' // ou utilisez un composant personnalisé
+import { FaSun, FaPlug, FaBatteryHalf } from 'react-icons/fa'
+
+
+<FaSun size={24} color="gold" />
+
+function SolarProductionCard({ currentProduction, maxProduction }) {
   return (
-    <div>
-      <h2>POMPAGE MONITORING</h2>
-      <p>Surveillez votre système solaire en temps réel 🚀</p>
-    </div>
+    <Card>
+      <Card.Header>Production Solaire</Card.Header>
+      <Card.Body>
+        <ProgressBar 
+          now={(currentProduction / maxProduction) * 100} 
+          label={`${currentProduction} kW`} 
+        />
+      </Card.Body>
+    </Card>
   )
 }
-
-export default Home
-
